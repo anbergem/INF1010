@@ -20,8 +20,9 @@ class Program{
 		Bil bil = new Bil(1234, andreas);
 
 		garasje.setBil(bil);
-		//andreas.getMinGarasje().setBil(bil);
+		//andreas.getMinGarasje().setBil(bil); <- SAMME SOM OVER!
 
+		System.out.println("\nNå kjører vi!\n");
 		andreas.kjør();
 
 
