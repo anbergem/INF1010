@@ -8,8 +8,8 @@ public class Person{
 		this.farge = farge;
 	}
 
-	public String getNavn(){
-		return navn;
+	public String skrivInfo(){
+		return String.format("Navn: %s, Farge: %s", navn, farge);
 	}
 
 }

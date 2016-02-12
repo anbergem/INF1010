@@ -6,8 +6,22 @@ public class IFIStudent extends Student{
 	private static String fakultet = "MatNat";
 
 	public IFIStudent(String navn, String farge, String skole){
-		programmeringsspraak = new ArrayList<String>();
 		super(navn, farge, skole);
+		programmeringsspraak = new ArrayList<String>();
+
 	}
+
+	public String hentFakultet(){
+		return fakultet;
+	}
+
+	public void leggTilSpraak(String spraak){
+		programmeringsspraak.add(spraak);
+	}
+	/* // Trenger ikke lenger
+	public String skrivInfo(){
+		return String.format("%s, Fakultet: %s", super.skrivInfo(), fakultet);
+	}
+	*/
 
 }

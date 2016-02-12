@@ -13,4 +13,8 @@ abstract public class Student extends Person{
 	}
 
 	abstract String hentFakultet();
+
+	public String skrivInfo(){
+		return String.format("%s, Skole: %s, Fakultet: %s, IF: %d", super.skrivInfo(), skole, hentFakultet(), studID);
+	}
 }
