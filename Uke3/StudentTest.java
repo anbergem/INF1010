@@ -19,6 +19,8 @@ public class StudentTest{
 
 		test(student.kanKjoere(), true, "om studenten kan kjoere etter avrusning");
 
+		System.out.println(nattverdsvin.kanSelgesTil());
+
 
 	}
 
