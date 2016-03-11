@@ -46,6 +46,19 @@ public class Spraakliste<E extends Spraak>{
 			temp = temp.neste;
 		}
 	}
+
+	public void skrivUtSpraak_alt() {
+		Node temp = forste;
+		while (true){
+			try {
+				System.out.println(temp.element);
+				temp = temp.neste;
+			}
+			catch (NullPointerException e) {
+				break;
+			}
+		}
+	}
 }
 
 

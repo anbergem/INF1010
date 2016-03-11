@@ -23,6 +23,10 @@ public class IFIStudent extends Student{
 		programmeringsspraak.skrivUtSpraak();
 	}
 
+	public void skrivUtSpraak_alt() {
+		programmeringsspraak.skrivUtSpraak_alt();
+	}
+
 	/* // Trenger ikke lenger
 	public String skrivInfo(){
 		return String.format("%s, Fakultet: %s", super.skrivInfo(), fakultet);

@@ -21,6 +21,10 @@ public class Program{
 
 		ifistudent.skrivUtSpraak();
 
+		System.out.println("\nHEI\n");
+
+		ifistudent.skrivUtSpraak_alt();
+
 		System.out.println("hea".compareTo("hae"));
 
 	}
