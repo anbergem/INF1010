@@ -25,7 +25,7 @@ public class Skattejakt {
 
 		// Basistilfelle: 
 		// Naar tallet == finnNesteTall(tall1, tall2)
-		if (tall1 == i && tall2 == j) return kart[tall1][tall2]; // HER
+		if (tall1 == i && tall2 == j) return kart[tall1][tall2]; 
 		string = string + "," + tallet;
 		finnNesteTall(tall1, tall2);
 		
